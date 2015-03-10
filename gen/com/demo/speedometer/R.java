@@ -597,6 +597,14 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int goIcon=0x7f01007d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int graph_space_visible=0x7f0100d6;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -787,6 +795,22 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int measureWithLargestChild=0x7f010087;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int measurement_unit=0x7f0100d4;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int measurement_value=0x7f0100d3;
         /**  The size of the middle bar when top and bottom bars merge into middle bar to form an arrow 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -898,6 +922,30 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int paddingStart=0x7f01006e;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int pane_subtitle=0x7f0100d2;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int pane_title=0x7f0100d1;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int pane_top_bar_visible=0x7f0100d5;
         /**  The background of a panel when it is inset from the left and right edges of the screen. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1968,7 +2016,7 @@ containing a value of this type.
         public static int action_mode_bar=0x7f09002e;
         public static int action_mode_bar_stub=0x7f09002d;
         public static int action_mode_close_button=0x7f090020;
-        public static int action_settings=0x7f09003f;
+        public static int action_settings=0x7f090046;
         public static int activity_chooser_view_content=0x7f090021;
         public static int always=0x7f090014;
         public static int beginning=0x7f09001b;
@@ -1985,11 +2033,14 @@ containing a value of this type.
         public static int expanded_menu=0x7f090028;
         public static int home=0x7f090000;
         public static int homeAsUp=0x7f09000e;
+        public static int horizonatal_line_lot=0x7f09003f;
         public static int icon=0x7f090026;
         public static int ifRoom=0x7f090016;
         public static int image=0x7f090023;
         public static int listMode=0x7f09000a;
         public static int list_item=0x7f090025;
+        public static int lyt_chart=0x7f090045;
+        public static int lyt_pane_top_bar=0x7f090040;
         public static int middle=0x7f09001d;
         public static int never=0x7f090017;
         public static int none=0x7f09000f;
@@ -2015,6 +2066,10 @@ containing a value of this type.
         public static int submit_area=0x7f09003c;
         public static int tabMode=0x7f09000c;
         public static int title=0x7f090027;
+        public static int txtbx_lbl_measurement_unit=0x7f090044;
+        public static int txtbx_lbl_measurement_value=0x7f090043;
+        public static int txtbx_lbl_pane_subtitle=0x7f090042;
+        public static int txtbx_lbl_pane_title=0x7f090041;
         public static int up=0x7f090001;
         public static int useLogo=0x7f090013;
         public static int withText=0x7f090018;
@@ -2071,6 +2126,7 @@ containing a value of this type.
         public static int abc_simple_dropdown_hint=0x7f030016;
         public static int activity_main=0x7f030017;
         public static int support_simple_spinner_dropdown_item=0x7f030018;
+        public static int tile=0x7f030019;
     }
     public static final class menu {
         public static int main=0x7f0d0000;
@@ -6699,6 +6755,114 @@ containing a value of this type.
           @attr name com.demo.speedometer:windowFixedWidthMinor
         */
         public static int Theme_windowFixedWidthMinor = 6;
+        /** Attributes that can be used with a Tile.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Tile_graph_space_visible com.demo.speedometer:graph_space_visible}</code></td><td></td></tr>
+           <tr><td><code>{@link #Tile_measurement_unit com.demo.speedometer:measurement_unit}</code></td><td></td></tr>
+           <tr><td><code>{@link #Tile_measurement_value com.demo.speedometer:measurement_value}</code></td><td></td></tr>
+           <tr><td><code>{@link #Tile_pane_subtitle com.demo.speedometer:pane_subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Tile_pane_title com.demo.speedometer:pane_title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Tile_pane_top_bar_visible com.demo.speedometer:pane_top_bar_visible}</code></td><td></td></tr>
+           </table>
+           @see #Tile_graph_space_visible
+           @see #Tile_measurement_unit
+           @see #Tile_measurement_value
+           @see #Tile_pane_subtitle
+           @see #Tile_pane_title
+           @see #Tile_pane_top_bar_visible
+         */
+        public static final int[] Tile = {
+            0x7f0100d1, 0x7f0100d2, 0x7f0100d3, 0x7f0100d4,
+            0x7f0100d5, 0x7f0100d6
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.demo.speedometer.R.attr#graph_space_visible}
+          attribute's value can be found in the {@link #Tile} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.demo.speedometer:graph_space_visible
+        */
+        public static int Tile_graph_space_visible = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.demo.speedometer.R.attr#measurement_unit}
+          attribute's value can be found in the {@link #Tile} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.demo.speedometer:measurement_unit
+        */
+        public static int Tile_measurement_unit = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.demo.speedometer.R.attr#measurement_value}
+          attribute's value can be found in the {@link #Tile} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.demo.speedometer:measurement_value
+        */
+        public static int Tile_measurement_value = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.demo.speedometer.R.attr#pane_subtitle}
+          attribute's value can be found in the {@link #Tile} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.demo.speedometer:pane_subtitle
+        */
+        public static int Tile_pane_subtitle = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.demo.speedometer.R.attr#pane_title}
+          attribute's value can be found in the {@link #Tile} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.demo.speedometer:pane_title
+        */
+        public static int Tile_pane_title = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.demo.speedometer.R.attr#pane_top_bar_visible}
+          attribute's value can be found in the {@link #Tile} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.demo.speedometer:pane_top_bar_visible
+        */
+        public static int Tile_pane_top_bar_visible = 4;
         /** Attributes that can be used with a Toolbar.
            <p>Includes the following attributes:</p>
            <table>
