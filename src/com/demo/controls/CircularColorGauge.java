@@ -139,4 +139,48 @@ public class CircularColorGauge extends View {
 	public int getValue() {
 		return mValue;
 	}
+
+	public void setStrokeWidth(float strokeWidth){
+		this.mStrokeWidth = strokeWidth;
+	}
+	
+	public void setStrokeColor(int strokeColor){
+		this.mStrokeColor = strokeColor;
+	}
+	
+	public void setStrokeCap(String strokeCap){
+		this.mStrokeCap = strokeCap;
+	}
+	
+	public void setStartAngle(int startAngle){
+		this.mStartAngel = startAngle;
+	}
+	
+	public void setSweepAngle(int sweepAngle){
+		this.mSweepAngel = sweepAngle;
+	}
+	
+	public void setStartValue(int startValue){
+		this.mStartValue = startValue;
+	}
+	
+	public void setEndValue(int endValue){
+		this.mEndValue = endValue;
+	}
+	
+	public void setPointSize(int pointSize){
+		this.mPointSize = pointSize;
+	}
+	
+	public void setPointStartColor(int pointStartColor){
+		this.mPointStartColor = pointStartColor;
+	}
+	
+	public void setPointEndColor(int pointEndColor){
+		this.mPointEndColor = pointEndColor;
+	}
+	
+	public void setPointAngle(double pointAngle){
+		this.mPointAngel = pointAngle;
+	}
 }

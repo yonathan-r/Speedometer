@@ -34,6 +34,7 @@ public class Tile extends LinearLayout {
 		measurementValue = a.getString(R.styleable.Tile_measurement_value);
 		measurementUnit = a.getString(R.styleable.Tile_measurement_unit);
 		paneTopBarViewVisible = a.getBoolean(R.styleable.Tile_pane_top_bar_visible, true);
+
 		graphSpaceVisible = a.getBoolean(R.styleable.Tile_graph_space_visible, true);
 		
 		a.recycle();
@@ -59,4 +60,28 @@ public class Tile extends LinearLayout {
 			graphSpace.setVisibility(View.GONE);	
 	}
 
+	public void setMeasurementValue(String measurementValue) {
+		this.measurementValue = measurementValue;
+		this.measurementValueView.setText(measurementValue);
+	}
+
+	public void setMeasurementUnit(String measurementUnit) {
+		this.measurementUnit = measurementUnit;
+		this.measurementUnitView.setText(measurementUnit);
+	}
+
+	public void setPaneTitle(String paneTitle) {
+		this.paneTitle = paneTitle;
+		this.paneTitleView.setText(paneTitle);
+	}
+
+	public void setPaneSubtitle(String paneSubtitle) {
+		this.paneSubtitle = paneSubtitle;
+		this.paneSubtitleView.setText(paneSubtitle);
+	}
+
+	public void addView(View view){
+		this.graphSpace.addView(view);
+	}
+    
 }
