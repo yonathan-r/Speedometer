@@ -1,6 +1,6 @@
-package com.demo.controls;
+package com.ui.tile;
 
-import com.demo.speedometer.R;
+import com.ui.tile.R;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
